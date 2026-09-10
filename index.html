@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="hal1.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;50"
+        rel="stylesheet"
+    >
+</head>
+<body>
+    <!-- Elemen Preloader Video -->
+<div id="preloader">
+  <!-- Pastikan ada atribut autoplay, muted, dan playsinline agar video otomatis jalan -->
+  <video id="loading-video" autoplay muted playsinline>
+    <source src="kuda.mp4" type="video/mp4">
+  </video>
+</div>
+
+<!-- Konten Utama Web Anda -->
+<div id="content">
+  <h1>Selamat Datang di Web Saya</h1>
+  <p>Ini adalah konten utama web.</p>
+</div>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="tenor.gif">
+            </div>
+            <nav>
+                <a href="#home">homeles</a>
+                <a href="#about">ABOUT</a>
+                <a href="#features">FEATURES</a>
+                <a href="#dlc">DLC</a>
+                <a href="#news">GALLERY</a>
+            </nav>
+        </div>
+            <button class="buy-button">
+                 <img src="porto.png">
+            </button>
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+        </div>
+    </header>
+    <!-- ================= MOBILE MENU ================= -->
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#features">FEATURES</a>
+        <a href="#dlc">DLC</a>
+        <a href="#news">NEWS</a>
+        <button>
+            BUY NOW
+        </button>
+    </div>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <div class="hero-overlay">
+    <video class="video-background" autoplay muted loop playsinline>
+        <source src="minecraftutama.mp4" type="video/mp4">
+    </video>
+        </div>
+        <div class="hero-content reveal">
+            <p class="small-title">
+                A NEW ADVENTURE AWAITS
+            </p>
+            <h1>
+                NURFAIZI<br>
+            <p>Gian Luca Venturi</p>
+            </h1>
+            <p class="hero-description">
+                “Men occasionally stumble over the truth, but most of them pick themselves up and hurry off as if nothing had happened.”
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="button primary">
+                    EXPLORE NOW
+                </a>
+                <a href="#features" class="button secondary">
+                    LEARN MORE
+                </a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            SCROLL DOWN
+            <span>↓</span>
+        </div>
+    </section>
+    <!-- ================= ABOUT ================= -->
+    <section class="about section" id="about">
+        <div class="about-image reveal">
+            <img src="tokyo.png" alt="Adventure">
+        </div>
+        <div class="about-content reveal">
+            <p class="section-label">
+                DISCOVER
+            </p>
+            <h2 class="become" id="become">
+                BECOME A<br>
+                BETTER PERSON
+            </h2>
+            <p>
+                 A Creative Software Engineering Student from SMKN 1 Bojong with a passion for Game Development, Video Editing, Music, Animation, and Content Creation.
+                 With 1.5 years of experience in the creative and digital field, I love turning ideas into interactive experiences and engaging visual content.
+                 I am always eager to learn, explore new technologies, and create something unique that combines technology with creativity.
+            </p>
+            <p>
+                  "The only bad workout is the one that didn't happen"
+                “Success is not final, failure is not fatal: it is the courage to continue that counts.” 
+            </p>
+            <a href="#features" class="button dark">
+                DISCOVER MORE
+            </a>
+        </div>
+    </section>
+    <!-- ================= FEATURES ================= -->
+    <section class="features section" id="features">
+        <div class="section-heading reveal">
+            <p class="section-label">
+                ADVENTURE
+            </p>
+            <h2>
+                WHAT AWAITS YOU
+            </h2>
+
+            <p>
+                Explore, fight and discover everything hidden inside
+                the world of the dungeon.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <article class="feature-card reveal">
+
+                <div class="feature-image">
+                    <img src="assets/feature1.jpg" alt="Explore">
+                </div>
+
+                <div class="feature-content">
+
+                    <span>01</span>
+
+                    <h3>
+                        EXPLORE
+                    </h3>
+
+                    <p>
+                        Travel through mysterious environments
+                        filled with secrets and hidden treasures.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-card reveal">
+
+                <div class="feature-image">
+                    <img src="assets/feature2.jpg" alt="Battle">
+                </div>
+
+                <div class="feature-content">
+
+                    <span>02</span>
+
+                    <h3>
+                        BATTLE
+                    </h3>
+
+                    <p>
+                        Face dangerous enemies and powerful bosses
+                        in intense dungeon battles.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="feature-card reveal">
+
+                <div class="feature-image">
+                    <img src="assets/feature3.jpg" alt="Collect">
+                </div>
+
+                <div class="feature-content">
+
+                    <span>03</span>
+
+                    <h3>
+                        COLLECT
+                    </h3>
+
+                    <p>
+                        Discover unique weapons, armor and powerful
+                        items to strengthen your character.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FULL WIDTH CTA ================= -->
+
+    <section class="banner">
+
+        <div class="banner-overlay"></div>
+
+        <div class="banner-content reveal">
+
+            <p>
+                YOUR ADVENTURE STARTS HERE
+            </p>
+
+            <h2>
+                READY FOR<br>
+                THE CHALLENGE?
+            </h2>
+
+            <a href="#dlc" class="button primary">
+                START ADVENTURE
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DLC ================= -->
+
+    <section class="dlc section" id="dlc">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                EXPANSIONS
+            </p>
+
+            <h2>
+                EXPLORE MORE
+            </h2>
+
+            <p>
+                Continue your journey with exciting new adventures.
+            </p>
+
+        </div>
+
+
+        <div class="dlc-grid">
+
+
+            <article class="dlc-card reveal">
+
+                <div class="dlc-image">
+
+                    <img src="assets/dlc1.jpg" alt="DLC">
+
+                    <div class="dlc-number">
+                        01
+                    </div>
+
+                </div>
+
+                <div class="dlc-content">
+
+                    <h3>
+                        THE LOST TEMPLE
+                    </h3>
+
+                    <p>
+                        Enter an ancient temple filled with
+                        forgotten secrets and dangerous enemies.
+                    </p>
+
+                    <a href="#">
+                        EXPLORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="dlc-card reveal">
+
+                <div class="dlc-image">
+
+                    <img src="assets/dlc2.jpg" alt="DLC">
+
+                    <div class="dlc-number">
+                        02
+                    </div>
+
+                </div>
+
+                <div class="dlc-content">
+
+                    <h3>
+                        FROZEN LANDS
+                    </h3>
+
+                    <p>
+                        Survive the frozen wilderness and
+                        face creatures hidden beneath the ice.
+                    </p>
+
+                    <a href="#">
+                        EXPLORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="dlc-card reveal">
+
+                <div class="dlc-image">
+
+                    <img src="assets/dlc3.jpg" alt="DLC">
+
+                    <div class="dlc-number">
+                        03
+                    </div>
+
+                </div>
+
+                <div class="dlc-content">
+
+                    <h3>
+                        DARK FOREST
+                    </h3>
+
+                    <p>
+                        Enter the darkness and discover what
+                        is hiding deep inside the forest.
+                    </p>
+
+                    <a href="#">
+                        EXPLORE →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWS ================= -->
+
+    <section class="news section" id="news">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">
+                LATEST
+            </p>
+
+            <h2>
+                NEWS & UPDATES
+            </h2>
+
+        </div>
+
+
+        <div class="news-container reveal">
+
+            <div class="news-image">
+
+                <img src="assets/news.jpg" alt="News">
+
+            </div>
+
+
+            <div class="news-content">
+
+                <p class="news-date">
+                    SEPTEMBER 07, 2026
+                </p>
+
+                <h3>
+                    A NEW CHAPTER
+                    BEGINS
+                </h3>
+
+                <p>
+                    Discover new adventures, new challenges
+                    and exciting content coming to the world
+                    of Dungeon Adventure.
+                </p>
+
+                <a href="#" class="button dark">
+                    READ MORE
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FINAL CTA ================= -->
+
+    <section class="final-cta">
+
+        <div class="final-content reveal">
+
+            <h2>
+                ENTER THE<br>
+                DUNGEON
+            </h2>
+
+            <p>
+                Your story is waiting to be written.
+            </p>
+
+            <a href="#" class="button primary">
+                PLAY NOW
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="footer-logo">
+                DUNGEON
+            </div>
+
+            <div class="footer-links">
+
+                <div>
+                    <h4>EXPLORE</h4>
+
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#features">Features</a>
+                </div>
+
+
+                <div>
+                    <h4>GAME</h4>
+
+                    <a href="#dlc">DLC</a>
+                    <a href="#news">News</a>
+                    <a href="#">Support</a>
+                </div>
+
+
+                <div>
+                    <h4>FOLLOW</h4>
+
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Discord</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Dungeon Adventure. All rights reserved.
+            </p>
+
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="hal1.js"></script>
+</body>
+</html>

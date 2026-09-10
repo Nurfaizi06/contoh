@@ -128,7 +128,7 @@ a {
     left: 0;
     width: 100%;
     background: #111;
-    display: flex;
+    display: none;
     flex-direction: column;
     z-index: 999;
 }
@@ -914,50 +914,82 @@ footer {
 
         border-width: 2px;
     }
+
+
     .buy-button {
         display: none;
     }
+
+
     .hero {
         min-height: 650px;
+
         padding: 0 25px;
     }
+
+
     .hero h1 {
         letter-spacing: -3px;
     }
+
+
     .hero-description {
         font-size: 15px;
     }
+
+
     .hero-buttons {
         flex-direction: column;
+
         width: 200px;
     }
+
+
     .scroll-down {
         left: 25px;
     }
+
+
     .section {
         padding: 80px 25px;
     }
+
+
     .about-image {
         height: 350px;
     }
+
+
     .feature-image {
         height: 280px;
     }
+
+
     .banner {
         padding: 70px 25px;
     }
+
+
     .news-content {
         padding: 35px 25px;
     }
+
+
     .news-content h3 {
         font-size: 40px;
     }
+
+
     .footer-links {
         flex-direction: column;
+
         gap: 35px;
     }
+
+
     .footer-bottom {
         flex-direction: column;
+
         gap: 20px;
     }
 }

@@ -128,7 +128,7 @@ a {
     left: 0;
     width: 100%;
     background: #111;
-    display: none;
+    display: flex;
     flex-direction: column;
     z-index: 999;
 }
@@ -781,215 +781,130 @@ footer {
 
     letter-spacing: 2px;
 }
-
-
 .footer-links a {
     color: #999;
-
     font-size: 14px;
-
     transition: .3s;
 }
-
-
 .footer-links a:hover {
     color: white;
 }
-
-
 .footer-bottom {
     padding-top: 25px;
-
     display: flex;
-
     justify-content: space-between;
-
     color: #777;
-
     font-size: 12px;
 }
-
-
 .footer-bottom div {
     display: flex;
-
     gap: 20px;
 }
-
-
 /* ================= ANIMATION ================= */
-
 .reveal {
     opacity: 0;
-
     transform: translateY(50px);
-
     transition:
         opacity .8s ease,
         transform .8s ease;
 }
-
-
 .reveal.active {
     opacity: 1;
-
     transform: translateY(0);
 }
 
 
 /* ================= RESPONSIVE ================= */
 
-@media (max-width: 900px) {
-
+@media (max-width: 576px) {
     .navbar nav {
         display: none;
     }
-
-
     .menu-button {
         display: block;
     }
-
-
     .about {
         grid-template-columns: 1fr;
-
         gap: 40px;
     }
-
-
     .about-image {
-        height: 450px;
+        height: auto;
     }
-
-
     .feature-grid {
         grid-template-columns: 1fr;
     }
-
-
     .dlc-grid {
         grid-template-columns: 1fr;
     }
-
-
     .news-container {
         grid-template-columns: 1fr;
     }
-
-
     .news-image {
         height: 400px;
     }
-
-
     .footer-top {
         flex-direction: column;
     }
-
-
     .footer-links {
         gap: 50px;
     }
-
 }
-
-
 @media (max-width: 600px) {
-
     .navbar {
         height: 65px;
-
         padding: 0 20px;
     }
-
-
     .mobile-menu {
         top: 65px;
     }
-
-
     .logo {
         font-size: 16px;
-
         border-width: 2px;
     }
-
-
     .buy-button {
         display: none;
     }
-
-
     .hero {
         min-height: 650px;
-
         padding: 0 25px;
     }
-
-
     .hero h1 {
         letter-spacing: -3px;
     }
-
-
     .hero-description {
         font-size: 15px;
     }
-
-
     .hero-buttons {
         flex-direction: column;
-
         width: 200px;
     }
-
-
     .scroll-down {
         left: 25px;
     }
-
-
     .section {
         padding: 80px 25px;
     }
-
-
     .about-image {
         height: 350px;
     }
-
-
     .feature-image {
         height: 280px;
     }
-
-
     .banner {
         padding: 70px 25px;
     }
-
-
     .news-content {
         padding: 35px 25px;
     }
-
-
     .news-content h3 {
         font-size: 40px;
     }
-
-
     .footer-links {
         flex-direction: column;
-
         gap: 35px;
     }
-
-
     .footer-bottom {
         flex-direction: column;
-
         gap: 20px;
     }
 }
